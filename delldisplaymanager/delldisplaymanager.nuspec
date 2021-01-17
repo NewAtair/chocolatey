@@ -1,48 +1,28 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<!-- Read this before creating packages: https://chocolatey.org/docs/create-packages -->
-<!-- It is especially important to read the above link to understand additional requirements when publishing packages to the community feed aka dot org (https://chocolatey.org/packages). -->
-
-<!-- Test your packages in a test environment: https://github.com/chocolatey/chocolatey-test-environment -->
-
-<!--
-This is a nuspec. It mostly adheres to https://docs.nuget.org/create/Nuspec-Reference. Chocolatey uses a special version of NuGet.Core that allows us to do more than was initially possible. As such there are certain things to be aware of:
-
-* the package xmlns schema url may cause issues with nuget.exe
-* Any of the following elements can ONLY be used by choco tools - projectSourceUrl, docsUrl, mailingListUrl, bugTrackerUrl, packageSourceUrl, provides, conflicts, replaces 
-* nuget.exe can still install packages with those elements but they are ignored. Any authoring tools or commands will error on those elements 
--->
 <!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>delldisplaymanager</id>
     <version>1.51.2010</version>
-    <!-- <packageSourceUrl>Where is this Chocolatey package located (think GitHub)? packageSourceUrl is highly recommended for the community feed</packageSourceUrl>-->
+    <packageSourceUrl>https://github.com/NewAtair/chocolatey/tree/main/delldisplaymanager</packageSourceUrl>
     <owners>TestingSite</owners>
-    <title>Dell Display Manager (Install)</title>
+    <title>Dell Display Manager Application (Install)</title>
     <authors>Dell Inc., EnTech Taiwan.</authors>
     <projectUrl>https://www.dell.com/support/home/en-us/drivers/driversdetails?driverid=yc8vc</projectUrl>
-    <!--<iconUrl>http://cdn.rawgit.com/__REPLACE_YOUR_REPO__/master/icons/delldisplaymanager.png</iconUrl>-->
+    <iconUrl>https://github.com/NewAtair/chocolatey/tree/main/delldisplaymanager/icon.png</iconUrl>
     <copyright>Copyright (c) 1995-2021, EnTech Taiwan</copyright>
     <licenseUrl>https://www.dell.com/learn/us/en/uscorp1/terms-of-sale-consumer-license-agreements</licenseUrl>
     <requireLicenseAcceptance>true</requireLicenseAcceptance>
     <docsUrl>https://www.dell.com/support/kbdoc/en-us/000060112/what-is-dell-display-manager</docsUrl>
     <tags>delldisplaymanager dell display ddm</tags>
-    <summary>The Dell Display Manager helps with general display needs such as resolution and brightness, and more complex display inventory needs.</summary>
+    <summary>The Dell Display Manager Application helps with general display needs such as resolution and brightness, and more complex display inventory needs.</summary>
     <description>__REPLACE__MarkDown_Okay </description>
     <releaseNotes>https://www.dell.com/support/home/en-us/drivers/driversdetails?driverid=yc8vc</releaseNotes>    
 
     <dependencies>
-      <dependency id="chocolatey-core.extension" version="1.1.0" />
+      <dependency id="chocolatey-core.extension" version="1.3.3" />
+      <dependency id="DotNet4.6.1" version="4.6.1" />
     </dependencies>
-    <!-- chocolatey-core.extension - https://chocolatey.org/packages/chocolatey-core.extension
-         - You want to use Get-UninstallRegistryKey on less than 0.9.10 (in chocolateyUninstall.ps1)
-         - You want to use Get-PackageParameters and on less than 0.11.0
-         - You want to take advantage of other functions in the core community maintainer's team extension package
-    -->
-
-    <!--<provides>NOT YET IMPLEMENTED</provides>-->
-    <!--<conflicts>NOT YET IMPLEMENTED</conflicts>-->
-    <!--<replaces>NOT YET IMPLEMENTED</replaces>-->
   </metadata>
   <files>
     <file src="tools\**" target="tools" />
