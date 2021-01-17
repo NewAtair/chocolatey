@@ -16,7 +16,16 @@
     <docsUrl>https://www.dell.com/support/kbdoc/en-us/000060112/what-is-dell-display-manager</docsUrl>
     <tags>delldisplaymanager dell display ddm</tags>
     <summary>The Dell Display Manager Application helps with general display needs such as resolution and brightness, and more complex display inventory needs.</summary>
-    <description>__REPLACE__MarkDown_Okay </description>
+    <description>
+    <![CDATA[## Dell Display Manager Application
+	is a tool to maximise the abilities of Dell displays
+	
+	See https://www.dell.com/support/home/en-us/drivers/driversdetails?driverid=yc8vc 
+  and https://www.youtube.com/watch?v=Feo4J8ogBKs
+  for more  information.
+	
+	]]>
+  </description>
     <releaseNotes>https://www.dell.com/support/home/en-us/drivers/driversdetails?driverid=yc8vc</releaseNotes>    
 
     <dependencies>
