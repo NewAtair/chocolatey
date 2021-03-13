@@ -1,7 +1,7 @@
 ﻿
 $ErrorActionPreference = 'Stop';
 $toolsDir   = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
-$url        = 'https://dl.dell.com/FOLDER06515292M/1/ddmsetup2010.exe'
+$url        = 'https://www.delldisplaymanager.com/ddmsetup.exe'
 
 $packageArgs = @{
   packageName   = $env:ChocolateyPackageName
@@ -11,7 +11,7 @@ $packageArgs = @{
 
   softwareName  = 'Dell Display Manager*'
 
-  checksum      = '621fb95479fa33e427bf78e0e7ff63a6e5f7f9fa47c78da3c309cdf4fc42650f'
+  checksum      = 'd1e19161a21550ffc98aca4b9dbb4b37ec3e5f02eeaaae7c0ed7cacaaff7f1d6'
   checksumType  = 'sha256'
 
   silentArgs   = '/VERYSILENT /SUPPRESSMSGBOXES /NORESTART /SP-'
