@@ -3,7 +3,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>delldisplaymanager</id>
-    <version>1.51.0.2028</version>
+    <version>1.51.0.2029</version>
     <packageSourceUrl>https://github.com/NewAtair/chocolatey/tree/main/delldisplaymanager</packageSourceUrl>
     <owners>TestingSite</owners>
     <title>Dell Display Manager Application (Install)</title>

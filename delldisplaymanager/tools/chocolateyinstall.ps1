@@ -11,7 +11,7 @@ $packageArgs = @{
 
   softwareName  = 'Dell Display Manager*'
 
-  checksum      = 'd1e19161a21550ffc98aca4b9dbb4b37ec3e5f02eeaaae7c0ed7cacaaff7f1d6'
+  checksum      = '5EA50EF51617D3725073EB4511F036384D14378B9D30054668B65214AA563D65'
   checksumType  = 'sha256'
 
   silentArgs   = '/VERYSILENT /SUPPRESSMSGBOXES /NORESTART /SP-'
