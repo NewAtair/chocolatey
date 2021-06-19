@@ -3,12 +3,12 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>delldisplaymanager</id>
-    <version>1.51.0.2029</version>
+    <version>1.51.0.2054</version>
     <packageSourceUrl>https://github.com/NewAtair/chocolatey/tree/main/delldisplaymanager</packageSourceUrl>
     <owners>TestingSite</owners>
     <title>Dell Display Manager Application (Install)</title>
     <authors>Dell Inc., EnTech Taiwan.</authors>
-    <projectUrl>https://www.dell.com/support/home/en-us/drivers/driversdetails?driverid=8c3tc</projectUrl>
+    <projectUrl>https://www.dell.com/support/home/en-us/drivers/driversdetails?driverid=yc8vc</projectUrl>
     <iconUrl>https://github.com/NewAtair/chocolatey/tree/main/delldisplaymanager/icon.png</iconUrl>
     <copyright>Copyright (c) 1995-2021, EnTech Taiwan</copyright>
     <licenseUrl>https://www.dell.com/learn/us/en/uscorp1/terms-of-sale-consumer-license-agreements</licenseUrl>
